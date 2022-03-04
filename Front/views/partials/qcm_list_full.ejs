@@ -1,0 +1,5 @@
+<div class="list-group">
+  <% qcms.forEach(function(qcm) { %>
+  <button class="list-group-item" title="Bootstrap"><strong><%= qcm.title %>: <%= qcm.description %>, <%= qcm.creation_date %></strong></button>
+  <% }); %>
+</div>

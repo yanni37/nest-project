@@ -1,0 +1,5 @@
+<div class="list-group">
+    <% articles.forEach(function(article) { %>
+    <button class="list-group-item" title="Bootstrap"><strong><%= article.title %>: <%= article.description %>, <%= article.creation_date %></strong></button>
+    <% }); %>
+  </div>
